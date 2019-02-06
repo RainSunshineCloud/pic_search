@@ -1,0 +1,23 @@
+{
+    "name": "rain_sunshine_cloud/pic_search",
+    "description":"这是一个图片模糊搜索的类",
+    "authors": [
+        {
+            "name": "RainSunshineCloud",
+            "email": "931035553@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files":["src/src/functions.php"],
+        "psr-4": {
+            "RainSunshineCloud\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    }
+}
